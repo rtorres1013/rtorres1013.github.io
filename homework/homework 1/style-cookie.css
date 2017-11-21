@@ -1,0 +1,29 @@
+body {  
+    background: #c8deec;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1{
+    font-family: Courier New, Courier, monospace
+}
+h2{
+    font-family: "Century Gothic";
+    color: #68838B;
+    font-weight: normal;
+}
+h3{
+    font-family: Courier New, Courier, monospace
+}
+h4{
+    color: #887;
+    font-style: italic;
+    font-size: 20px;
+    font-family: Courier New, Courier, monospace
+}
+img{
+    border: 5px solid black;
+    height: 400px;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+}
