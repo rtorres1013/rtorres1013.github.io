@@ -1,15 +1,18 @@
 
 header, footer, .section-3, .section-4, .section-5{
     height: 100px;
+    margin: 10px;
 
 }
 .section-1,.section-2 {
     height: 300px;
+    margin: 10px;
 }
 
 main{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 header{
     background: red;
@@ -17,27 +20,27 @@ header{
 
 .section-1{
     background:green;
-    width: 50%;
+    width: 45%;
 }
 
 .section-2{
     background: blue;
-    width: 50%;
+    width: 45%;
 }
 
 .section-3{
     background: brown;
-    width: 33%;
+    width: 30%;
 }
 
 .section-4{
     background: purple;
-    width: 33%;
+    width: 30%;
 }
 
 .section-5{
     background: orange;
-    width: 33%;
+    width: 30%;
 }
 footer{
     background: yellow;
