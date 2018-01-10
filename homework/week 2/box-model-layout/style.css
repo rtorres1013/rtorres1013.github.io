@@ -1,0 +1,37 @@
+.container{
+    background: lightgray;
+    text-align: center;
+    width: 900px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.menu{
+    background: black;
+    color: white;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.lorem-1 {
+    background: orangered;
+    color: blue;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+}
+
+.lorem-2 {
+    background: orangered;
+    color: green;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+}
+
+.lorem-3 {
+    background: orangered;
+    color: yellow;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+}

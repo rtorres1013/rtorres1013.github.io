@@ -1,0 +1,9 @@
+$('#submit').click(function() {
+    var a = $('#a').val();
+    var b = $('#b').val();
+
+   if(a==b){
+       $('#comparison').html('==');
+   }
+    
+})
