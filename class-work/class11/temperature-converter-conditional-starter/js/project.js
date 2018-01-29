@@ -20,7 +20,13 @@ $('#c-button').click(function() {
 	$('#answer').html(celInput + '&deg; celcius is ' + farOutput + '&deg; fahrenheit.');
 });
 
-
+$('#f-button').click(function(){
+	if(farOutput > '70') {
+		$('body').css('background', 'orange');
+	}else{
+		$('body').css('backgorund', 'blue');
+	}
+})
 
 /*
 

@@ -1,1 +1,62 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
 
+body{
+    background-image: url('../img/FEWD_Final_Project.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    
+}
+
+/* Title of Page */
+
+h1{
+
+    text-align: center;
+}
+
+
+/* Container for Months */
+
+#wrapperMonths{
+
+    display: grid;
+    grid-gap: 1.5px;
+    grid-template-columns: repeat(12, 30px);
+    grid-template-rows: 10px auto 10px;
+    padding-top: 147px;
+    padding-left: 475px;
+    color: white;
+    font-size: 12px;
+    display: none;
+}
+
+/* Container for Years */
+    
+#wrapperYears{
+    width: 377px;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(68, 35px);
+    grid-template-rows: 10px auto 10px;
+    overflow: auto;
+    /* padding-top: 12.25em;
+    padding-left: 39em; */
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+
+}
+
+
+.box:hover{
+    color: red;
+}
+
+.years:hover{
+    color: red; 
+}
